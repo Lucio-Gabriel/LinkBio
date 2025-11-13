@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Button from './Button';
 
@@ -51,7 +50,5 @@ function App() {
     </div>
   );
 }
-
-// https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ
 
 export default App
