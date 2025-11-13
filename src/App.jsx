@@ -10,7 +10,7 @@ function App() {
           <section>
             <div className='flex items-center justify-center m-10'>
               <img 
-                src="src/assets/images/foto-bio.jpg" 
+                src="public/images/foto-bio.jpg" 
                 alt="foto de perfil" 
                 className='rounded-full w-28 h-28'
               />
