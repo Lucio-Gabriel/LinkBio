@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import Button from './Button';
 
 function App() {
 
   return (
     <div>
       <div className='flex items-center justify-center mt-32'>
-        <article className='bg-[#242424] max-w-2xl w-full rounded-2xl m-3'>
+        <article className='bg-[#1F1F1F] max-w-md w-full rounded-2xl m-3'>
           <section>
             <div className='flex items-center justify-center m-10'>
               <img 
@@ -28,6 +29,20 @@ function App() {
               <p className='mt-8 text-md font-medium text-slate-200'>
                 "Desenvolvedor Full Stack"
               </p>
+            </div>
+
+            <div className='flex flex-col items-center justify-center mb-10'>
+              <Button link="https://github.com/Lucio-Gabriel">
+                Github
+              </Button>
+
+              <Button link="https://www.linkedin.com/in/lucio-azevedo/">
+                Linkedin
+              </Button>
+
+              <Button link="https://www.instagram.com/eogab__dev/">
+                Instagram
+              </Button>
             </div>
             
           </section>
